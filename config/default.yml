@@ -1,0 +1,20 @@
+
+server:
+  href: 'http://[::1]:3333/'
+  origin: 'http://[::1]:3333'
+  protocol: 'http:'
+  host: '[::1]:3333'
+  hostname: '[::1]'
+  port: '3333'
+  pathname: '/'
+  search: ''
+  hash: ''
+db:
+  type: 'mongodb'
+  name: 'localhost'
+  port: 27017
+  database: 'test'
+  mongoURI: 'mongodb://localhost:27017/test?readPreference=primary&appname=MongoDB%20Compass&ssl=false'
+jwt:
+  expiresIn: 3600
+  secret: 'somesecret'

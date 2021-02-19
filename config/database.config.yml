@@ -1,0 +1,12 @@
+customers:
+  - domain: 'test.example.com'
+    mongouri: 'mongodb://localhost:27017/test?minPoolSize=0&maxPoolSize=1&maxIdleTimeMS=15000&retryWrites=true&w=majority'
+    name: "test"
+  - domain: 'dev-example.com'
+    mongouri: 'mongodb://localhost:27017/test?minPoolSize=0&maxPoolSize=1&maxIdleTimeMS=15000&retryWrites=true&w=majority'
+    name: "dev-webstore"
+  - domain: 'localhost'
+    mongouri: 'mongodb://localhost:27017/test?minPoolSize=0&maxPoolSize=1&maxIdleTimeMS=15000&retryWrites=true&w=majority'
+    name: "localhost"
+
+    
